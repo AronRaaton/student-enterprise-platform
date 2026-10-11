@@ -1,0 +1,180 @@
+/* Shared enterprise, task and announcement page presentation. */
+#app .module-page {
+  --module-line: #e1e7dc;
+  --module-muted: #7e8b76;
+  width: 100%;
+  max-width: 1280px;
+  min-height: 100svh;
+  margin: 0 auto;
+  padding: 20px clamp(20px, 4vw, 60px) 56px;
+  background: #fff;
+  color: #293f32;
+  font-family: inherit;
+}
+#app .module-page :is(.page-header,.header) {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 18px;
+  margin: 0 0 30px;
+  padding: 12px 0 24px;
+  border: 0;
+  border-bottom: 1px solid var(--module-line);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  position: static;
+}
+#app .module-page :is(.header-left,.header-right) { display: flex; align-items: center; flex-wrap: wrap; gap: 16px; min-width: 0; }
+#app .module-page :is(.page-title,.page-header h1,.page-header h2,.header h1) { color: #294531; font-size: 23px; font-weight: 600; margin: 0; line-height: 1.5; overflow-wrap: anywhere; }
+#app .module-page .page-header .page-title { flex: 1; text-align: left; }
+#app .module-page :is(.back-button,.back-btn) { flex: none; min-height: 36px; background: #fff; border: 1px solid var(--module-line); border-radius: 7px; padding: 8px 12px; color: #57734c; font-size: 12px; }
+#app .module-page :is(.content-container,.content-area,.projects-content,.challenges-content,.form-container,.review-content,.submission-content,.application-content,.project-content,.challenge-content,.job-list-container,.task-form,.edit-form,.material-content) {
+  max-width: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  border: 0;
+  border-radius: 0;
+  min-width: 0;
+}
+#app .module-form :is(.form-container,.task-form,.edit-form,.verification-form) { max-width: 880px; margin-inline: auto; }
+#app .module-page :is(.action-bar,.filter-section,.search-filter-container,.filter-controls,.form-actions,.action-buttons,.task-actions,.project-actions,.challenge-actions,.event-actions,.competition-actions,.material-actions,.job-actions,.student-actions) { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+#app .module-page :is(.action-bar,.filter-section,.search-filter-container) { background: transparent; border: 0; padding: 0 0 24px; margin-bottom: 0; box-shadow: none; }
+#app .module-page :is(.tasks-grid,.notices-grid,.announcements-grid,.students-grid,.projects-list,.challenges-list,.competition-cards,.event-cards,.materials-list) { display: flex; flex-direction: column; gap: 0; grid-template-columns: none; }
+#app .module-page :is(.task-card,.notice-card,.announcement-card,.student-card,.project-card,.challenge-card,.competition-card,.event-card,.material-card,.job-card,.application-item,.submission-card,.conversation-item) {
+  position: relative;
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  margin: 0;
+  padding: 24px 18px;
+  background: transparent;
+  border: 1px solid transparent;
+  border-bottom-color: var(--module-line);
+  border-radius: 0;
+  box-shadow: none;
+  transform: none;
+  overflow: visible;
+  transition: background-color 140ms ease, border-color 140ms ease;
+}
+#app .module-page :is(.task-header,.notice-header,.announcement-header,.project-header,.challenge-header,.competition-header,.event-header,.material-header,.job-header,.application-header,.submission-header) {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px 20px;
+  background: transparent;
+  border: 0;
+  padding: 0 0 14px;
+  border-radius: 0;
+}
+#app .module-page :is(.task-title,.notice-title,.announcement-title,.project-title,.challenge-title,.competition-title,.event-title,.material-title,.job-title) { font-size: 18px; color: #304b35; font-weight: 600; line-height: 1.6; margin: 0; overflow-wrap: anywhere; }
+#app .module-page :is(.task-header,.notice-header,.project-header,.challenge-header) > :is(h2,h3) { flex: 1; min-width: 160px; }
+#app .module-page :is(.task-content,.notice-card .notice-content,.announcement-content,.material-card .material-content,.task-footer,.announcement-footer,.notice-footer,.job-info,.project-info,.challenge-info) { padding: 10px 0; background: transparent; border-radius: 0; border: 0; box-shadow: none; }
+#app .module-page :is(.task-info,.task-meta,.notice-meta,.project-meta,.challenge-meta,.competition-dates,.info-grid,.project-info,.challenge-info,.job-info) { display: flex; flex-wrap: wrap; gap: 12px 30px; }
+#app .module-page :is(.task-info p,.info-item p) { margin: 0; }
+#app .module-page :is(.info-label,.meta-label,.date-label,.task-date,.notice-date,.announcement-date,.material-date,.form-tip,.form-text,.help-text) { font-size: 12px; color: var(--module-muted); }
+#app .module-page :is(.task-description,.project-description,.challenge-description,.competition-description,.event-description,.material-description,.notice-body,.section-content) { font-size: 14px; line-height: 1.85; color: #596a51; overflow-wrap: anywhere; }
+#app .module-page :is(.task-stats,.project-stats,.challenge-stats,.competition-stats,.status-statistics) { display: flex; flex-wrap: wrap; gap: 0; padding: 18px 0; background: transparent; border: 0; box-shadow: none; }
+#app .module-page :is(.stat-item,.stat-card) { flex: 0 1 auto; min-width: 90px; margin: 0; padding: 4px 24px; border: 0; border-right: 1px solid var(--module-line); border-radius: 0; box-shadow: none; background: transparent; transform: none; }
+#app .module-page :is(.stat-item,.stat-card):first-child { padding-left: 0; }
+#app .module-page :is(.stat-item,.stat-card):last-child { border-right: 0; }
+#app .module-page .stat-card.active { color: #315b46; background: #f1f6e9; }
+#app .module-page .stat-value { font-size: 22px; color: #456238; font-weight: 500; }
+#app .module-page .stat-label { font-size: 11px; color: #829175; }
+#app .module-page :is(.form-section,.task-info-card,.info-card,.profile-section,.student-info-section,.application-details,.review-form,.project-section,.challenge-section,.chapters-list,.submissions-section) { background: transparent; border: 0; border-bottom: 1px solid var(--module-line); border-radius: 0; box-shadow: none; padding: 24px 0; margin-bottom: 20px; }
+#app .module-page :is(.section-title,.form-title) { font-size: 16px; color: #345039; font-weight: 600; margin: 0 0 22px; padding-bottom: 10px; border-color: var(--module-line); }
+#app .module-page .form-group { margin-bottom: 24px; min-width: 0; }
+#app .module-page :is(.form-group label,.verification-form label) { display: block; font-size: 13px; font-weight: 500; line-height: 1.7; color: #4a6041; margin-bottom: 9px; }
+#app .module-page :is(.form-group input:not([type=checkbox]):not([type=radio]),.form-group select,.form-group textarea,.form-control,.search-input,.search-box input,.filter-select,.status-filter,.verification-form input) {
+  max-width: 100%;
+  border: 1px solid #dce5d5;
+  border-radius: 7px;
+  background: #fcfdf9;
+  color: #344b30;
+  padding: 11px 13px;
+  font: inherit;
+  font-size: 13px;
+  line-height: 1.5;
+  box-shadow: none;
+}
+#app .module-page :is(.form-group input:not([type=checkbox]):not([type=radio]),.form-group select,.form-group textarea,.form-control) { width: 100%; }
+#app .module-page :is(input,select,textarea):focus-visible { outline: 2px solid #b6c8a3; outline-offset: 2px; }
+#app .module-page textarea { min-height: 120px; resize: vertical; }
+#app .module-page :is(.form-row,.info-row) { display: flex; flex-wrap: wrap; gap: 20px; }
+#app .module-page .form-row > .form-group { flex: 1 1 260px; width: auto; }
+#app .module-page .form-actions { border-top: 1px solid var(--module-line); padding-top: 24px; margin-top: 28px; justify-content: flex-end; }
+#app .module-page button:not(.el-button) { font-family: inherit; font-size: 12px; border-radius: 7px; box-shadow: none; transition: background-color 140ms ease, border-color 140ms ease; transform: none; }
+#app .module-page :is(.publish-button,.submit-btn,.submit-button,.primary-btn,.primary-button,.apply-button,.create-btn,.create-button,.add-job-btn,.approve-btn,.action-btn.primary,.action-button,.action-btn,.view-button,.view-btn) { background: #315b46; color: #fff; border: 1px solid #315b46; padding: 9px 15px; }
+#app .module-page :is(.publish-button,.submit-btn,.submit-button,.primary-btn,.primary-button,.apply-button,.create-btn,.create-button,.add-job-btn,.approve-btn,.action-btn.primary,.action-button,.action-btn,.view-button,.view-btn):hover:not(:disabled) { background: #234332; border-color: #234332; }
+#app .module-page :is(.cancel-btn,.cancel-button,.secondary-btn,.draft-btn,.edit-btn,.edit-button,.view-applications-btn) { background: #f2f6ed; color: #577047; border: 1px solid #dce6d2; padding: 9px 15px; }
+#app .module-page :is(.delete-btn,.delete-button,.reject-btn,.close-btn,.action-btn.danger,.remove-file,.delete-file-btn) { background: #fcf0ed; color: #ab5145; border: 1px solid #edcec5; padding: 8px 13px; }
+#app .module-page button:disabled { opacity: .5; cursor: not-allowed; }
+#app .module-page :is(.tab-btn,.job-tabs button) { background: transparent; color: #79896d; border: 0; border-bottom: 2px solid transparent; border-radius: 0; padding: 12px 18px; }
+#app .module-page :is(.tab-btn.active,.job-tabs button.active) { color: #315b46; border-bottom-color: #315b46; }
+#app .module-page :is(.task-status,.project-status,.challenge-status,.competition-status,.event-status,.job-status,.announcement-status) { flex: 0 0 auto; position: static; max-width: 100%; padding: 5px 9px; font-size: 11px; border-radius: 4px; line-height: 1.5; white-space: normal; }
+#app .module-page :is(.empty-state,.no-data,.no-job-selected) { background: #fafbf7; border: 1px dashed #dfe7d5; border-radius: 8px; padding: 40px 24px; margin: 20px 0; color: #8a997d; text-align: center; box-shadow: none; }
+#app .module-page .empty-icon { font-size: 26px; margin-bottom: 16px; }
+#app .module-page :is(.empty-state h3,.empty-state p) { color: #839376; font-size: 14px; }
+#app .module-page :is(.modal-overlay,.delete-confirm-overlay) { background: #18342266; backdrop-filter: blur(3px); padding: 20px; }
+#app .module-page :is(.modal-content,.modal-container,.delete-confirm-dialog) { background: #fff; border: 1px solid #dfe7d5; border-radius: 12px; box-shadow: 0 18px 70px #1f34252b; max-width: min(760px,100%); max-height: calc(100svh - 40px); overflow-y: auto; }
+#app .module-page :is(.modal-header,.modal-footer) { background: #fff; border-color: var(--module-line); padding: 20px 24px; }
+#app .module-page .modal-body { padding: 24px; }
+#app .module-page :is(.pagination,.pagination-controls) { padding: 24px 0; display: flex; justify-content: center; gap: 12px; }
+#app .module-page .notice-body { white-space: pre-wrap; padding: 28px 0; }
+#app .module-page.notice-detail-container > .notice-content { padding: 20px 0; box-shadow: none; border: 0; background: transparent; }
+#app .module-page .task-info-section { display: block; }
+#app .module-page.job-applications-container .content-wrapper { display: grid; grid-template-columns: 280px minmax(0,1fr); gap: 28px; }
+#app .module-page.job-applications-container :is(.jobs-list,.applications-panel) { width: auto; min-width: 0; background: transparent; box-shadow: none; border: 0; padding: 0; }
+#app .module-page.job-applications-container .jobs-list { border-right: 1px solid var(--module-line); padding-right: 24px; }
+#app .module-page table { width: 100%; border-collapse: collapse; }
+#app .module-page :is(th,td) { padding: 14px 12px; border-color: var(--module-line); font-size: 13px; text-align: left; }
+#app .module-page th { background: #f3f6ee; color: #56704a; }
+#app .module-page.module-chat { max-width: 1440px; padding: 0 28px 28px; background: #f5f6f2; }
+@media(hover:hover) {
+  #app .module-page :is(.task-card,.notice-card,.announcement-card,.student-card,.project-card,.challenge-card,.competition-card,.event-card,.material-card,.job-card,.application-item,.submission-card,.conversation-item):hover { border-color: #abc09c; background: #f7faf2; box-shadow: none; transform: none; }
+}
+#app .module-page :is(.task-card,.notice-card,.announcement-card,.student-card,.project-card,.challenge-card,.competition-card,.event-card,.material-card,.job-card,.application-item,.submission-card,.conversation-item):focus-within { border-color: #78966a; background: #f7faf2; }
+@media(max-width:700px) {
+  #app .module-page { padding: 14px 18px 36px; }
+  #app .module-page :is(.page-header,.header) { gap: 12px; padding: 10px 0 20px; margin-bottom: 20px; }
+  #app .module-page :is(.page-title,.page-header h1,.page-header h2,.header h1) { font-size: 19px; }
+  #app .module-page :is(.search-container,.search-box,.search-input) { width: 100%; }
+  #app .module-page :is(.task-card,.notice-card,.announcement-card,.student-card,.project-card,.challenge-card,.competition-card,.event-card,.material-card,.job-card,.application-item,.submission-card) { padding: 20px 12px; }
+  #app .module-page :is(.task-title,.notice-title,.project-title,.job-title) { font-size: 16px; }
+  #app .module-page :is(.stat-item,.stat-card) { min-width: 0; padding: 6px 14px; }
+  #app .module-page :is(.task-footer,.announcement-footer,.notice-footer) { display: flex; flex-wrap: wrap; gap: 12px; }
+  #app .module-page .half-width { width: 100%; }
+  #app .module-page.job-applications-container .content-wrapper { display: block; }
+  #app .module-page.job-applications-container .jobs-list { border-right: 0; border-bottom: 1px solid var(--module-line); padding: 0 0 20px; margin-bottom: 24px; }
+  #app .module-page table { display: block; overflow-x: auto; }
+  #app .module-page :is(.modal-content,.modal-container) { width: 100%; }
+  #app .module-page.module-chat { padding: 0 12px 20px; }
+}
+@media(prefers-reduced-motion:reduce) { #app .module-page * { transition: none !important; animation: none !important; } }
+
+/* Remove absolute offsets inherited from the former centered headers. */
+#app .module-page :is(.page-header,.header) > :is(.back-button,.back-btn,.search-container,.page-title) { position: static; inset: auto; transform: none; }
+#app .module-page :is(.page-header,.header) { flex-direction: row; }
+#app .module-page :is(.task-stats,.project-stats,.challenge-stats,.competition-stats) { justify-content: flex-start; gap: 0; }
+#app .module-page .filter-options { display: flex; flex-wrap: wrap; gap: 12px; min-width: 0; max-width: 100%; }
+#app .module-page .filter-options select { min-width: 0; max-width: 100%; padding: 10px; border: 1px solid #dce5d5; border-radius: 7px; background: #fcfdf9; color: #526b47; }
+#app .module-page :is(.student-info,.enterprise-basic-info,.info-value) { min-width: 0; overflow-wrap: anywhere; }
+#app .module-page .info-grid .info-item { background: transparent; border-bottom: 1px solid #e5ebde; border-radius: 0; padding: 14px 0; min-width: 140px; }
+#app .module-page .enterprise-logo { background: #e4edda; color: #48653d; border: 1px solid #d7e2cb; }
+#app .module-page .website-link { color: #4d7440; text-underline-offset: 3px; }
+#app .module-page .description-content { background: transparent; padding: 12px 0; line-height: 1.8; }
+#app .module-page.task-publish-container .header h1 { flex: 1; }
+#app .module-page.task-publish-container .header p { flex-basis: 100%; color: #849475; font-size: 13px; margin: 0; }
+@media(max-width:700px) {
+  #app .module-page .filter-options { width: 100%; }
+  #app .module-page .filter-options select { flex: 1 1 140px; }
+  #app .module-page :is(.search-box,.search-box input) { min-width: 0; max-width: 100%; }
+  #app .module-page .student-card { flex-wrap: wrap; gap: 14px; }
+  #app .module-page .student-card .student-info { flex: 1 1 180px; }
+  #app .module-page .unfavorite-btn { position: static; }
+}

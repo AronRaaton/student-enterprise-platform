@@ -1,0 +1,49 @@
+# Dependencies and build output
+**/node_modules/
+**/target/
+**/dist/
+**/build/
+.build-tools/
+**/.vite/
+# Runtime data and local credentials
+**/uploads/
+**/logs/
+*.log
+.env
+.env.*
+!.env.example
+application-local.*
+application-private.*
+**/application-local.*
+**/application-private.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.dump
+*.sql.gz
+*.sqlite*
+# Editors and OS
+.idea/
+.vscode/
+**/.idea/
+**/.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+.DS_Store
+Thumbs.db
+# Temporary tooling
+**/__pycache__/
+*.pyc
+# Keep the Maven wrapper binary required for bootstrap
+!.mvn/wrapper/maven-wrapper.jar
+
+# Machine-only database/authentication state
+**/mysql-data/
+**/credentials.json
+**/*-client.ini
+**/hosts.yml

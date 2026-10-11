@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-11T12:56:37.909Z",
+  "environment": "Local fictional demo only",
+  "checks": [
+    {
+      "name": "Browser login: student and enterprise",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Password fields absent from login JSON",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Invalid login rejected",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Browser messaging: HTTP send, receiver polling, reload persistence",
+      "status": "PASS",
+      "detail": "Two separate browser contexts; no network responses mocked."
+    },
+    {
+      "name": "Unread count changes and mark-read persistence",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Browser forum: create post, comment, reply, like/unlike and reload",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Browser application: submit, reject, resubmit, approve, reload",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "API fictional file upload and download",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "Development maintenance endpoint disabled",
+      "status": "PASS",
+      "detail": null
+    }
+  ],
+  "browserErrors": [],
+  "httpFailures": [],
+  "fixtures": {
+    "messages": [
+      "Portfolio demo: student message 1791723397909",
+      "Portfolio demo: enterprise reply 1791723397909"
+    ],
+    "postId": 5,
+    "projectId": 5,
+    "applicationId": 5
+  }
+}

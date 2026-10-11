@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-11T07:21:03.748404+00:00",
+  "mysqlVersion": "8.0.44",
+  "tableCount": 36,
+  "schemaImport": "PASS: three public SQL files imported before startup",
+  "afterRestart": {
+    "postExists": true,
+    "commentRows": 2,
+    "likeRows": 1,
+    "storedLikeCount": 1,
+    "applicationStatus": "APPROVED",
+    "bothBrowserMessagesPersisted": true
+  }
+}

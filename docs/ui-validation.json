@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-11T12:16:47.686484+00:00",
+  "scope": "October 2026 portfolio UI refresh",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "layoutChecks": [
+    {
+      "page": "login",
+      "viewport": "desktop",
+      "noDocumentHorizontalOverflow": true
+    },
+    {
+      "page": "student-home",
+      "viewport": "desktop",
+      "noDocumentHorizontalOverflow": true
+    },
+    {
+      "page": "chat",
+      "viewport": "desktop",
+      "noDocumentHorizontalOverflow": true
+    },
+    {
+      "page": "forum",
+      "viewport": "desktop",
+      "noDocumentHorizontalOverflow": true
+    },
+    {
+      "page": "enterprise-home",
+      "viewport": "desktop",
+      "noDocumentHorizontalOverflow": true
+    },
+    {
+      "page": "review",
+      "viewport": "desktop",
+      "noDocumentHorizontalOverflow": true
+    },
+    {
+      "page": "login",
+      "viewport": "mobile",
+      "noDocumentHorizontalOverflow": true
+    },
+    {
+      "page": "student-home",
+      "viewport": "mobile",
+      "noDocumentHorizontalOverflow": true
+    },
+    {
+      "page": "chat",
+      "viewport": "mobile",
+      "noDocumentHorizontalOverflow": true
+    },
+    {
+      "page": "forum",
+      "viewport": "mobile",
+      "noDocumentHorizontalOverflow": true
+    },
+    {
+      "page": "enterprise-home",
+      "viewport": "mobile",
+      "noDocumentHorizontalOverflow": true
+    },
+    {
+      "page": "review",
+      "viewport": "mobile",
+      "noDocumentHorizontalOverflow": true
+    }
+  ],
+  "note": "Home navigation intentionally scrolls horizontally on small screens. Visual inspection is not a full accessibility audit."
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <!-- 必须的 meta 标签 -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap 的 CSS 文件 -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- 导航栏开始 -->
+	<nav th:replace="frag :: nav" ></nav>
+	<!-- 导航栏结束 -->
+	<div class="container-fluid">
+	  <div class="row">
+	    <div class="col-2">
+	      <!--左侧菜单开始-->
+		  <div th:replace="frag :: menu"></div>
+		  <!--左侧菜单结束-->
+	    </div>
+	    <div class="col-10">
+	    </div>
+	  </div>
+	</div>
+    <script src="/js/jquery-3.6.3.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

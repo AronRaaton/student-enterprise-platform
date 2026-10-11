@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-11T07:15:49.384Z",
+  "test": "Actual STOMP transport and recipient delivery without polling",
+  "sockjsInfoStatus": 200,
+  "connected": true,
+  "httpMessagePersisted": true,
+  "stompMessagePersisted": true,
+  "recipientDelivered": false,
+  "httpSendStatus": 200,
+  "transportErrors": {
+    "errors": [],
+    "closed": null
+  },
+  "verdict": "NOT_DELIVERED"
+}

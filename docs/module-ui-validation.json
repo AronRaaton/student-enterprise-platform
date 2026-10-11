@@ -1,0 +1,953 @@
+{
+  "documentationFinalized": "2026-10-12 Asia/Shanghai",
+  "styledComponents": [
+    {
+      "component": "AllAssignedTasks.vue",
+      "layout": "list"
+    },
+    {
+      "component": "AllNotices.vue",
+      "layout": "list"
+    },
+    {
+      "component": "AllTask.vue",
+      "layout": "list"
+    },
+    {
+      "component": "Chate2s.vue",
+      "layout": "chat"
+    },
+    {
+      "component": "CompetitionDetail.vue",
+      "layout": "detail"
+    },
+    {
+      "component": "CompetitionPublish.vue",
+      "layout": "form"
+    },
+    {
+      "component": "CreateForumPost.vue",
+      "layout": "list"
+    },
+    {
+      "component": "EnterpriseAllAnnouncements.vue",
+      "layout": "list"
+    },
+    {
+      "component": "EnterpriseAllTasks.vue",
+      "layout": "list"
+    },
+    {
+      "component": "EnterpriseChallenges.vue",
+      "layout": "list"
+    },
+    {
+      "component": "EnterpriseCompetitions.vue",
+      "layout": "list"
+    },
+    {
+      "component": "EnterpriseDetail.vue",
+      "layout": "detail"
+    },
+    {
+      "component": "EnterpriseDetailForStudent.vue",
+      "layout": "detail"
+    },
+    {
+      "component": "EnterpriseEvents.vue",
+      "layout": "list"
+    },
+    {
+      "component": "EnterpriseJobApplications.vue",
+      "layout": "list"
+    },
+    {
+      "component": "EnterpriseJobManagement.vue",
+      "layout": "list"
+    },
+    {
+      "component": "EnterpriseMessages.vue",
+      "layout": "list"
+    },
+    {
+      "component": "EnterpriseNoticePub.vue",
+      "layout": "list"
+    },
+    {
+      "component": "EnterpriseProfileSelf.vue",
+      "layout": "detail"
+    },
+    {
+      "component": "EnterpriseProjects.vue",
+      "layout": "list"
+    },
+    {
+      "component": "EnterpriseTrainingMaterials.vue",
+      "layout": "list"
+    },
+    {
+      "component": "EnterpriseVerification.vue",
+      "layout": "detail"
+    },
+    {
+      "component": "EventDetail.vue",
+      "layout": "detail"
+    },
+    {
+      "component": "EventPublish.vue",
+      "layout": "form"
+    },
+    {
+      "component": "FavoritedStudents.vue",
+      "layout": "list"
+    },
+    {
+      "component": "ForumHome.vue",
+      "layout": "list"
+    },
+    {
+      "component": "ForumPost.vue",
+      "layout": "list"
+    },
+    {
+      "component": "JobDetail.vue",
+      "layout": "detail"
+    },
+    {
+      "component": "LikedPosts.vue",
+      "layout": "list"
+    },
+    {
+      "component": "NoticeDetail.vue",
+      "layout": "detail"
+    },
+    {
+      "component": "OrderTrainingDetail.vue",
+      "layout": "detail"
+    },
+    {
+      "component": "OrderTrainingUpload.vue",
+      "layout": "form"
+    },
+    {
+      "component": "ProjectApplication.vue",
+      "layout": "list"
+    },
+    {
+      "component": "ProjectApplicationReview.vue",
+      "layout": "detail"
+    },
+    {
+      "component": "ProjectCollaborationPublish.vue",
+      "layout": "form"
+    },
+    {
+      "component": "ProjectDetail.vue",
+      "layout": "detail"
+    },
+    {
+      "component": "ProjectPlanReview.vue",
+      "layout": "detail"
+    },
+    {
+      "component": "ProjectPlanUpload.vue",
+      "layout": "form"
+    },
+    {
+      "component": "ProjectStepReview.vue",
+      "layout": "detail"
+    },
+    {
+      "component": "ProjectStepSubmission.vue",
+      "layout": "form"
+    },
+    {
+      "component": "ProjectStepSubmissions.vue",
+      "layout": "list"
+    },
+    {
+      "component": "StudentDetail.vue",
+      "layout": "detail"
+    },
+    {
+      "component": "TaskDetail.vue",
+      "layout": "detail"
+    },
+    {
+      "component": "TaskDetailForEnter.vue",
+      "layout": "detail"
+    },
+    {
+      "component": "TaskPublish.vue",
+      "layout": "form"
+    },
+    {
+      "component": "TaskSubmission.vue",
+      "layout": "form"
+    },
+    {
+      "component": "TaskSubmissions.vue",
+      "layout": "list"
+    },
+    {
+      "component": "TechnicalChallengeDetail.vue",
+      "layout": "detail"
+    },
+    {
+      "component": "TechnicalChallengePublish.vue",
+      "layout": "form"
+    },
+    {
+      "component": "TechnicalChallengeSubmission.vue",
+      "layout": "form"
+    },
+    {
+      "component": "TrainingBaseDetail.vue",
+      "layout": "detail"
+    },
+    {
+      "component": "TrainingMaterialDetail.vue",
+      "layout": "detail"
+    },
+    {
+      "component": "TrainingMaterialEdit.vue",
+      "layout": "form"
+    },
+    {
+      "component": "TrainingReportUpload.vue",
+      "layout": "form"
+    }
+  ],
+  "pageViewportChecks": 68,
+  "allCheckedPagesFitViewport": true,
+  "homeStatusGutters": [
+    {
+      "name": "home-status-border",
+      "size": "desktop",
+      "gutter": 17,
+      "tagInside": true
+    },
+    {
+      "name": "home-status-border",
+      "size": "mobile",
+      "gutter": 17,
+      "tagInside": true
+    }
+  ],
+  "pageChecks": [
+    {
+      "name": "tasks",
+      "route": "/enterprise-all-tasks",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "announcements",
+      "route": "/enterprise-all-announcements",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "task-publish",
+      "route": "/task-publish",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "notice-publish",
+      "route": "/enterprise-notice-pub",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "task-detail",
+      "route": "/task-detail-for-enter/1",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "task-submissions",
+      "route": "/task-submissions/1",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "jobs",
+      "route": "/enterprise/jobs",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "job-applications",
+      "route": "/enterprise/job-applications",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "projects",
+      "route": "/enterprise/projects",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "project-publish",
+      "route": "/enterprise/projects/publish",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "project-detail",
+      "route": "/projects/1",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "application-review",
+      "route": "/enterprise/projects/applications/1",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "project-step-submissions",
+      "route": "/projects/1/steps/1/submissions",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "challenges",
+      "route": "/enterprise/challenges",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "challenge-publish",
+      "route": "/enterprise/challenges/publish",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "competitions",
+      "route": "/enterprise/competitions",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "competition-publish",
+      "route": "/enterprise/competitions/publish",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "events",
+      "route": "/enterprise/events",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "event-publish",
+      "route": "/enterprise/events/publish",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "materials",
+      "route": "/enterprise/training-materials",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "messages",
+      "route": "/enterprise/messages",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "chat",
+      "route": "/chat/1001",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "profile",
+      "route": "/enterprise/profile-self/2001",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "verification",
+      "route": "/enterprise/verification",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "students",
+      "route": "/favorited-students",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "student-detail",
+      "route": "/enterprise/student/1001",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "forum",
+      "route": "/forum",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "forum-post",
+      "route": "/forum/posts/1",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "forum-create",
+      "route": "/forum/create",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "student-tasks",
+      "route": "/all-task",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "student-assigned",
+      "route": "/assigned-tasks",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "student-notices",
+      "route": "/all-notices",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "notice-detail",
+      "route": "/notice-detail/1",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "student-plan-review",
+      "route": "/projects/1/plan-review",
+      "size": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "overflow": [],
+      "errors": [],
+      "http": [
+        {
+          "path": "/api/projects/1/steps/2/submissions/1001",
+          "status": 500
+        }
+      ]
+    },
+    {
+      "name": "tasks",
+      "route": "/enterprise-all-tasks",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "announcements",
+      "route": "/enterprise-all-announcements",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "task-publish",
+      "route": "/task-publish",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "notice-publish",
+      "route": "/enterprise-notice-pub",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "task-detail",
+      "route": "/task-detail-for-enter/1",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "task-submissions",
+      "route": "/task-submissions/1",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "jobs",
+      "route": "/enterprise/jobs",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "job-applications",
+      "route": "/enterprise/job-applications",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "projects",
+      "route": "/enterprise/projects",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "project-publish",
+      "route": "/enterprise/projects/publish",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "project-detail",
+      "route": "/projects/1",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "application-review",
+      "route": "/enterprise/projects/applications/1",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "project-step-submissions",
+      "route": "/projects/1/steps/1/submissions",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "challenges",
+      "route": "/enterprise/challenges",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "challenge-publish",
+      "route": "/enterprise/challenges/publish",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "competitions",
+      "route": "/enterprise/competitions",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "competition-publish",
+      "route": "/enterprise/competitions/publish",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "events",
+      "route": "/enterprise/events",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "event-publish",
+      "route": "/enterprise/events/publish",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "materials",
+      "route": "/enterprise/training-materials",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "messages",
+      "route": "/enterprise/messages",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "chat",
+      "route": "/chat/1001",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "profile",
+      "route": "/enterprise/profile-self/2001",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "verification",
+      "route": "/enterprise/verification",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "students",
+      "route": "/favorited-students",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "student-detail",
+      "route": "/enterprise/student/1001",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "forum",
+      "route": "/forum",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [
+        "category-tab",
+        "category-tab",
+        "popular-post-card",
+        "post-title",
+        "post-meta",
+        "post-author",
+        "post-stats",
+        "views",
+        "likes",
+        "comments",
+        "popular-post-card",
+        "post-title"
+      ],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "forum-post",
+      "route": "/forum/posts/1",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "forum-create",
+      "route": "/forum/create",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "student-tasks",
+      "route": "/all-task",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "student-assigned",
+      "route": "/assigned-tasks",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "student-notices",
+      "route": "/all-notices",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "notice-detail",
+      "route": "/notice-detail/1",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": []
+    },
+    {
+      "name": "student-plan-review",
+      "route": "/projects/1/plan-review",
+      "size": "mobile",
+      "width": 390,
+      "scroll": 390,
+      "overflow": [],
+      "errors": [],
+      "http": [
+        {
+          "path": "/api/projects/1/steps/2/submissions/1001",
+          "status": 500
+        }
+      ]
+    }
+  ],
+  "interactions": {
+    "results": [
+      "Task search and detail navigation",
+      "Announcement draft saved, listed and opened as detail",
+      "Job dialog opens and closes",
+      "Enterprise pending-count rendering has no Vue $set error"
+    ],
+    "noticeId": 1
+  },
+  "coreRegression": "9 grouped checks passed; see browser-validation.json",
+  "limitation": "No submission fixture exists for project plan review; the existing-submission query returned HTTP 500. Empty modules were checked for layout, not complete business execution."
+}
